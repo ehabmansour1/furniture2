@@ -1,1 +1,1 @@
-# furniture2
+# furniture

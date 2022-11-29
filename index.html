@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="furniture project" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>furniture project</title>
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <circle id="test" cx="40" cy="40" r="32"></circle>
+        </svg>
+      </div>
+    </div>
+    <!--
+███████╗██╗░░██╗░█████╗░██████╗░
+██╔════╝██║░░██║██╔══██╗██╔══██╗
+█████╗░░███████║███████║██████╦╝
+██╔══╝░░██╔══██║██╔══██║██╔══██╗
+███████╗██║░░██║██║░░██║██████╦╝
+╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░-->
+    <!-- start landing and header -->
+    <div class="landing-header">
+      <div class="header">
+        <div class="container">
+          <a href="index.html" class="logo">Panto</a>
+          <ul class="nav">
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+            <li>
+              <a href="register.html">Register</a>
+            </li>
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#experiences">About Us</a></li>
+            <li><a href="mailto:info@furniture.com">Contact</a></li>
+            <i class="exit ai-cross"></i>
+          </ul>
+          <div class="icons">
+            <i class="menu ai-three-line-horizontal"></i>
+            <a href="cart.html" data-content="" class="cart">
+              <i class="ai-shopping-bag"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="landing">
+        <div class="container">
+          <h1>Make your interior more minimalistic & modern</h1>
+          <p>
+            Turn your room with panto into a lot more minimalist and modern with
+            ease and speed
+          </p>
+          <div class="search">
+            <input disabled type="text" placeholder="Search furniture" />
+            <i class="ai-search"></i>
+          </div>
+          <div class="color-change">
+            <div class="colors">
+              <div class="orange"></div>
+              <div class="blue"></div>
+              <div class="grey"></div>
+            </div>
+            <div class="pointer"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end landing and header -->
+    <!-- start choosing  -->
+    <div class="choosing">
+      <div class="container">
+        <h2>
+          Why <br />
+          Choosing Us
+        </h2>
+        <div class="box">
+          <h4>Luxury facilities</h4>
+          <p>
+            The advantage of hiring a workspace with us is that givees you
+            comfortable service and all-around facilities.
+          </p>
+          <a href="">More Info <i class="ai-arrow-right"></i></a>
+        </div>
+        <div class="box">
+          <h4>Affordable Price</h4>
+          <p>
+            You can get a workspace of the highst quality at an affordable price
+            and still enjoy the facilities that are oly here.
+          </p>
+          <a href="">More Info <i class="ai-arrow-right"></i></a>
+        </div>
+        <div class="box">
+          <h4>Many Choices</h4>
+          <p>
+            We provide many unique work space choices so that you can choose the
+            workspace to your liking.
+          </p>
+          <a href="">More Info <i class="ai-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- end choosing  -->
+    <!-- start products -->
+    <div class="products" id="products">
+      <h2>Best Selling Product</h2>
+      <div class="container">
+        <ul class="tabs">
+          <li><button class="chairs active">Chairs</button></li>
+          <li><button class="beds">Beds</button></li>
+          <li><button class="sofre">Sofra</button></li>
+          <li><button class="lamp">Lamp</button></li>
+        </ul>
+        <div class="boxes chairs">
+          <div class="box" id="item1">
+            <img src="images/item1-image.png" alt="" />
+            <div class="info">
+              <span class="type">Chair</span>
+              <a href="product_details.html" class="name">Sakarias Armchair</a>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="footer">
+                <span class="price">$ <span>392</span></span>
+                <i class="add ai-circle-plus-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box" id="item2">
+            <img src="images/item2-image.png" alt="" />
+            <div class="info">
+              <span class="type">Chair</span>
+              <a href="product_details.html" class="name">Baltsar Chair</a>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="footer">
+                <span class="price">$ <span>492</span></span>
+                <i class="add ai-circle-plus-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box" id="item3">
+            <img src="images/item3-image.png" alt="" />
+            <div class="info">
+              <span class="type">Chair</span>
+              <a href="product_details.html" class="name">Anjay Chair</a>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="footer">
+                <span class="price">$ <span>519</span></span>
+                <i class="add ai-circle-plus-fill"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box" id="item4">
+            <img src="images/item4-image.png" alt="" />
+            <div class="info">
+              <span class="type">Chair</span>
+              <a href="product_details.html" class="name">Nyantuy Chair</a>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="footer">
+                <span class="price">$ <span>921</span></span>
+                <i class="add ai-circle-plus-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="link" href="#">View All <i class="ai-arrow-right"></i></a>
+    </div>
+    <!-- end products -->
+    <!-- start experiences -->
+    <div class="experiences" id="experiences">
+      <div class="image">
+        <img src="images/exp1.png" alt="" />
+      </div>
+      <div class="text">
+        <div class="headline">
+          <p>experiences</p>
+          <h2>we provide you the best experience</h2>
+        </div>
+        <p>
+          You don’t have to worry about the result because all of these
+          interiors are made by people who are professionals in their fields
+          with an elegant and lucurious style and with premium quality materials
+        </p>
+        <a href="#">More Info<i class="ai-arrow-right"></i></a>
+      </div>
+    </div>
+    <!-- end experiences -->
+    <!-- start Materials -->
+    <div class="materials">
+      <div class="text">
+        <div class="headline">
+          <p>Materials</p>
+          <h2>Very serious materials for making furniture</h2>
+        </div>
+        <p>
+          Because panto was very serious about designing furniture for our
+          environment, using a very expensive and famous capital but at a
+          relatively low price
+        </p>
+        <a href="#">More Info<i class="ai-arrow-right"></i></a>
+      </div>
+      <div class="images">
+        <div>
+          <img src="images/mat1.png" alt="" />
+          <img src="images/mat2.png" alt="" />
+        </div>
+        <img src="images/mat3.png" alt="" />
+      </div>
+    </div>
+    <!-- end Materials -->
+    <!-- start Testimonials -->
+    <div class="testimonials">
+      <div class="headline">
+        <p>Testimonials</p>
+        <h2>Our Client Reviews</h2>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img src="images/test1.png" alt="" />
+          <div class="info">
+            <div class="id-image"><img src="images/id2.png" alt="" /></div>
+            <p class="name">Ibuk Sukijan</p>
+            <p class="job">Ibu Rumah Tangga</p>
+            <p class="quote">
+              “Makasih Panto, aku sekarang berasa tinggal di apartment karena
+              barang-barang yang terlihat mewah“
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/tes2.png" alt="" />
+          <div class="info">
+            <div class="id-image"><img src="images/id3.png" alt="" /></div>
+            <p class="name">Mpok Ina</p>
+            <p class="job">Karyawan Swasta</p>
+            <p class="quote">
+              “Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/test3.png" alt="" />
+          <div class="info">
+            <div class="id-image"><img src="images/id1.png" alt="" /></div>
+            <p class="name">Bang Upin</p>
+            <p class="job">Pedagang Asongan</p>
+            <p class="quote">
+              “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan
+              terlihat mahal“
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Testimonials -->
+    <!-- start footer -->
+    <div class="page-footer">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">Panto</a>
+          <p>
+            The advantage of hiring a workspace with us is that givees you
+            comfortable service and all-around facilities.
+          </p>
+        </div>
+        <div class="links">
+          <ul class="services">
+            <span>Services</span>
+            <li><a href="#">Email Marketing</a></li>
+            <li><a href="#">Campaigns</a></li>
+            <li><a href="#">Branding</a></li>
+          </ul>
+          <ul class="furniture">
+            <span>Furniture</span>
+            <li><a href="#">Beds</a></li>
+            <li><a href="#">Chair</a></li>
+            <li><a href="#">All</a></li>
+          </ul>
+          <ul class="follow">
+            <span>Follow Us</span>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="last-container container">
+        <p>Copyright © 2022</p>
+        <div>
+          <a href="">Terms & Conditions</a>
+          <a href="">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+    <a
+      href="cart.html"
+      data-content=""
+      class="cart cart-fixed-icon animate__animated"
+      ><i class="ai-shopping-bag"></i
+    ></a>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
